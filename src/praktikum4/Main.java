@@ -32,7 +32,7 @@ public class Main {
                     Bukualamat.display(buku);
                     System.out.print("Hapus Data Ke- ? ");
                     w = input.nextInt();
-                    System.out.print("y/n untuk menghapus");
+                    System.out.print("y/n untuk menghapus ");
                     if (input.next().equals("y") && (w - 1) < buku.length) {
                         Bukualamat.delete(buku, w);
                     } 
